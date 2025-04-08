@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add_Iphone</title>
+  </head>
+
+  <body>
+    <h1>Add Product Data</h1>
+    <form action="http://localhost:2025/addiphones" method="post">
+      <div>
+     <label for="producturl">Product-url</label>
+    <br />
+        <input type="text" name="url" />
+         <br />
+        <label for="productname">Product-name </label>
+        <br />
+        <input type="text" name="name" />
+        <br />
+     
+      </div>
+      <div>
+        <label for="product_brief_description"
+          >product_brief_description
+        </label>
+        <br />
+        <textarea
+          name="brief_description"
+          id=""
+          cols="30"
+        ></textarea>
+        <br />
+        <label for="product_description">product_description</label>
+        <br />
+        <textarea
+          name="description"
+          id=""
+          cols="30"
+          rows="10"
+        ></textarea>
+        <br />
+        <label for="product_img">product_img </label>
+        <br />
+        <input type="text" name="img" />
+        <br />
+        <label for="product_link">product_link</label>
+        <br />
+        <input type="text" name="link" />
+      </div>
+      <div>
+        <label label for="starting_price">starting_price </label>
+        <br />
+        <input type="text" name="starting_price" />
+        <br />
+        <label for="price_range">price_range</label>
+        <br />
+        <input type="text" name="price_range" />
+      </div>
+
+      <br /><br />
+      <input type="submit" value="Add product" />
+    </form>
+  </body>
+</html>
